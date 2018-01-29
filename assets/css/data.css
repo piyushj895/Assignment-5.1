@@ -1,0 +1,132 @@
+#logo
+{
+width: 20px;
+height: 40px;
+}
+.second
+{
+   height: 500px;
+   width: 80%;
+   max-width: 80%;
+   margin-top: 100px;
+   margin-left: 90px;
+   background-image: url("./../images/surf.jpg");
+   background-repeat:no-repeat;
+   -webkit-background-size:cover;
+   /* background-size:cover; */
+   background-size: contain;
+   background-position:center;
+
+
+}
+img
+{
+  width: 100%;
+  /* height: 500px; */
+}
+
+.third
+{
+height: 300px;
+width: 50%;
+max-width: 100%;
+
+background-repeat: no-repeat;
+background-size: contain;
+
+margin-left: 100px;
+
+/* transform: rotateX(10%); */
+opacity: 1;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+  transition: opacity 1500ms, transform 1500ms;
+}
+
+
+#image2
+{
+position: absolute;
+/* top: 800px;
+left: 600px; */
+width:60%;
+height:auto;
+margin-top: -170px;
+right: 1px;
+float:center;
+}
+#image1
+{
+
+margin-top: -250px;
+width: 50%;
+height: auto;
+
+}
+
+#fifth
+{
+  margin-top: 40px;
+  margin-left: 200px;
+}
+
+#sixth
+{
+  width:40%;
+  height: 70%;
+  margin-top: 100px;
+  float: right;
+  /* padding-right: -30px; */
+}
+#seventh
+{
+  width: 500px;
+  margin-top: -80px;
+  float:left;
+}
+#eight
+{
+  opacity: 0.01;
+  position: relative;
+  margin-top: -500px;
+  height: 100%;
+}
+#ninth
+{
+  width:50%;
+  float: left;
+  margin-top: -180px;
+}
+#footer
+{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+#tenth
+{
+  width: 30px;
+  height: 30px;
+}
+/* #owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+} */
+#owl-demo .item{
+  /* background: #42bdc2; */
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+
+}
+#bgimage
+{
+  background-image: url("./../images/output-2.jpg");
+}
