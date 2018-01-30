@@ -6,8 +6,8 @@ height: 40px;
 .second
 {
    height: 500px;
-   width: 80%;
-   max-width: 80%;
+   width: 400px;
+   max-width: 70%;
    margin-top: 100px;
    margin-left: 90px;
    background-image: url("./../images/surf.jpg");
@@ -16,7 +16,7 @@ height: 40px;
    /* background-size:cover; */
    background-size: contain;
    background-position:center;
-
+ }
 
 }
 img
@@ -71,30 +71,34 @@ height: auto;
 
 #sixth
 {
-  width:40%;
-  height: 70%;
+
+  width:380px;
+  /* height: 500px; */
   margin-top: 100px;
   float: right;
-  /* padding-right: -30px; */
+
 }
 #seventh
 {
-  width: 500px;
-  margin-top: -80px;
+  width: 350px;
+  height: 400px;
+  margin-top: 20px;
   float:left;
 }
 #eight
 {
+  width: 100%;
+  /* height: 50%; */
   opacity: 0.01;
-  position: relative;
+  /* position: relative; */
   margin-top: -500px;
-  height: 100%;
+
 }
-#ninth
+ #ninth
 {
-  width:50%;
+  width:350px;
   float: left;
-  margin-top: -180px;
+  margin-top: 100px;
 }
 #footer
 {
@@ -106,6 +110,24 @@ height: auto;
 {
   width: 30px;
   height: 30px;
+margin-left: 37%;
+}
+@media screen and (max-width:768px) {
+  #tenth{
+    margin-left: 110px;
+  }
+}
+#eleventh
+{
+  width: 30px;
+  height: 30px;
+margin-left: 10%
+}
+#twelveth
+{
+  width: 30px;
+  height: 30px;
+margin-left: 10%
 }
 /* #owl-demo .item{
   margin: 3px;
@@ -126,7 +148,73 @@ height: auto;
   text-align: center;
 
 }
-#bgimage
-{
-  background-image: url("./../images/output-2.jpg");
+
+.line{
+		margin-bottom: 5px;
+	}
+
+.price{
+  font-size: 30px;
+  margin: 0 auto;
+  color: #333;
 }
+#image3 img{
+    @media all and (max-width: 480px);
+    {
+      img {display: block;margin: 0 auto;
+    }
+    }
+  }
+#align{
+  float:right;
+  transform:rotate(-90deg);
+  margin-top:100px;
+  opacity:0.3;
+}
+  @media screen and (max-width: 768px) {
+  p,li{
+    /* margin-left: 50%; */
+    }
+  #align{
+    display: none;
+  }
+  }
+#margin
+{
+  margin-top: 250px;
+}
+@media screen and (max-width: 768px){
+  /* {
+  margin-top: 150px;
+  } */
+  #margin
+  {
+    margin-top: 500px;
+    margin-left: -70px;
+  }
+}
+.surfboard-description
+{
+margin-top: 300px;
+}
+@media screen and (max-width: 768px){
+  .surfboard-description
+  {
+    margin-top: 200px;
+  }
+}
+#css
+{
+  margin-left:25%;
+  /* margin: auto; */
+}
+@media screen and (max-width: 768px) {
+  #css
+  {
+    margin-left:25%;
+  }
+}
+/* #image5
+{
+  margin-left: 50%;
+} */
